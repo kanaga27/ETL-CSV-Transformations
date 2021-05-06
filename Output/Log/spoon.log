@@ -1,0 +1,17 @@
+2021/05/06 10:41:34 - Spoon - Running transformation using the Kettle execution engine
+2021/05/06 10:41:34 - Spoon - Transformation opened.
+2021/05/06 10:41:34 - Spoon - Launching transformation [Getting Started Transformation]...
+2021/05/06 10:41:34 - Spoon - Started the transformation execution.
+2021/05/06 10:41:34 - Getting Started Transformation - Dispatching started for transformation [Getting Started Transformation]
+2021/05/06 10:41:35 - Write to Database.0 - Connected to database [Sample Data] (commit=1000)
+2021/05/06 10:41:35 - Read Postal Codes.0 - Opening file: file:///C:/software/pdi-ce-9.1.0.0-324/pentaho/samples/transformations/files/Zipssortedbycitystate.csv
+2021/05/06 10:41:35 - Read Sales Data.0 - Opening file: file:///C:/software/pdi-ce-9.1.0.0-324/pentaho/samples/transformations/files/sales_data.csv
+2021/05/06 10:41:35 - Read Sales Data.0 - Finished processing (I=2824, O=0, R=0, W=2823, U=1, E=0)
+2021/05/06 10:41:35 - Filter Missing Zips.0 - Finished processing (I=0, O=0, R=2823, W=2823, U=0, E=0)
+2021/05/06 10:41:35 - Read Postal Codes.0 - Finished processing (I=21380, O=0, R=0, W=21379, U=1, E=0)
+2021/05/06 10:41:35 - Lookup Missing Zips.0 - Finished processing (I=0, O=0, R=21455, W=76, U=0, E=0)
+2021/05/06 10:41:35 - Prepare Field Layout.0 - Finished processing (I=0, O=0, R=76, W=76, U=0, E=0)
+2021/05/06 10:41:35 - Value mapper.0 - Finished processing (I=0, O=0, R=2823, W=2823, U=0, E=0)
+2021/05/06 10:41:35 - Number range.0 - Finished processing (I=0, O=0, R=2823, W=2823, U=0, E=0)
+2021/05/06 10:41:36 - Write to Database.0 - Finished processing (I=0, O=2823, R=2823, W=2823, U=0, E=0)
+2021/05/06 10:41:36 - Spoon - The transformation has finished!!
